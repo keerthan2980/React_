@@ -1,0 +1,52 @@
+to install react --npx creat-reat-app appname it will create in javascript // npx create-react-app my-app --template typescript
+then cd file name 
+npm start
+in component the Function name Should be Capatel ie (Apple,Name....)
+we can import one component into another component
+we can edit total css and write over own code 
+we can create external css file and write the css code and import it
+frameworks::
+material ui
+chakra
+react bootstrap 
+jsx :; javascript xml
+before jsx the html and javascript has writen in seperate files 
+react change that 
+in javascript file we can write an html (one file html and javascript)
+all the element should be wraped in an parent element 
+{} are used to pass the values
+elements ::
+in css class="some name" name will be writen as className="some name"
+images:
+we have to save the images in public folder
+props:;
+properties:
+used to to comunicate and transfer the data 
+only one way communicaton 
+parent and child ,child cannot modify the content of the parent class,it can  only read 
+for receving the child components  u have to write (....) something (props)
+props destructuring :: we can call the values by keys
+state management::
+State management in React involves controlling and updating the state of components, ensuring consistent data flow and UI reactivity.
+ Hooks::
+ hooks are functions 
+ useState::
+ syntax: const[state,setState]=useState()
+       const[city,setCity]=useCity("Hyderabad")
+       initially the city(variable)="Hyderabad"
+       in future if u want to manipulate the city use setCity function 
+       to manipulate syntax is setCity("Nizamabad")
+
+ state value will come from the ()
+ it should be imported  and writen in top of the function 
+ The useState hook in React is used to create and manage state in functional components.
+  It allows you to declare a state variable and a function to update it.
+
+  use Effect::
+  built in function in react 
+  used to manage the side effects 
+  it is aslo called as all subscriptions ,used to fetch the data from api
+   useEffect(<function>, <dependency>)
+ syntax is useEffect(()=>{},[])  { ..()=>{} call back function []--> dependency ..  control the state for not looping }
+ events :;
+ 
