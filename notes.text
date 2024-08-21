@@ -49,4 +49,4 @@ State management in React involves controlling and updating the state of compone
    useEffect(<function>, <dependency>)
  syntax is useEffect(()=>{},[])  { ..()=>{} call back function []--> dependency ..  control the state for not looping }
  events :;
- 
+ this are the react basics
