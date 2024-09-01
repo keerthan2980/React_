@@ -49,4 +49,29 @@ State management in React involves controlling and updating the state of compone
    useEffect(<function>, <dependency>)
  syntax is useEffect(()=>{},[])  { ..()=>{} call back function []--> dependency ..  control the state for not looping }
  events :;
- this are the react basics
+ this are the react basics 
+ form events ::
+ 1.onChange(): we can get the values from the input fields
+2.useState
+3.function
+4.event.target.value (getting the values)
+
+                        Npm 
+ 
+NPM (Node Package Manager) is a tool used to manage and share JavaScript packages,
+libraries, and dependencies in Node.js projects.
+ like a market, we can use 3rd part packages in our project which was developed 
+ by others
+ package like 
+ react Toastify and other 
+ 
+1.Package Management: Installs and manages libraries (packages) for your JavaScript projects.
+2.Version Control: Helps maintain specific versions of libraries to avoid compatibility issues.
+3.Dependency Handling: Automatically installs and updates all dependencies required by a project.
+4.Global Installation: Allows global installation of command-line tools for use across multiple projects.
+5.Custom Scripts: Runs custom scripts like building, testing, or starting a project.
+6.Package Publishing: Allows developers to publish their own packages to the NPM registry for others to use.
+7.Collaboration: Facilitates collaboration by sharing code with other developers.
+8.Security: Provides tools to audit and fix security vulnerabilities in dependencies.
+9.Easy Project Setup: Simplifies project setup with package.json for defining dependencies and project details.
+10.Community Support: Access to a vast ecosystem of open-source libraries and tools

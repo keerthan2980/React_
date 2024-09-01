@@ -12,6 +12,7 @@ import Thirdcomponent from './properties/Thirdcomponent';
 import Fourthcomponent from './properties/Fourthcomponent';
 import Exampleuseeffect from './components/useeffectexample';
 import Clickevent from './components/clickevents';
+import Formevents from './components/formevents';
 
 const user={
   name:"keerthan",
@@ -37,8 +38,9 @@ function App() {
    <ExampleComponent></ExampleComponent>
     <Exampleuseeffect></Exampleuseeffect>
      <Clickevent></Clickevent>
+       <Resize></Resize>
    */}
-   <Resize></Resize>
+    <Formevents></Formevents>
    
   </>
 
