@@ -1,0 +1,39 @@
+.gamecontainer {
+  height: 20.5rem;
+  width: 20.5rem;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(15, 20px);
+  grid-template-rows: repeat(15, 20px);
+  gap: 2px;
+}
+.cell {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.cell.food {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.snake {
+  background-color: green;
+}
+
+.game-over {
+  color: red;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.score {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.scoreboard {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
