@@ -13,6 +13,10 @@ import Fourthcomponent from './properties/Fourthcomponent';
 import Exampleuseeffect from './components/useeffectexample';
 import Clickevent from './components/clickevents';
 import Formevents from './components/formevents';
+import Samplearray from './components/Samplearray';
+import { Circuit } from './components/circuit';
+import Counter from './components/samplestate';
+import Greeting from './components/sampleprop';
 
 const user={
   name:"keerthan",
@@ -39,8 +43,14 @@ function App() {
     <Exampleuseeffect></Exampleuseeffect>
      <Clickevent></Clickevent>
        <Resize></Resize>
+       <Formevents></Formevents>
+    <Samplearray></Samplearray>
+     <Circuit></Circuit>
+        
    */}
-    <Formevents></Formevents>
+  
+   <Counter></Counter>
+   <Greeting></Greeting>
    
   </>
 
