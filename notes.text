@@ -20,7 +20,7 @@ in css class="some name" name will be writen as className="some name"
 images:
 we have to save the images in public folder
 props:;
-properties:
+properties: 
 used to to comunicate and transfer the data 
 only one way communicaton 
 parent and child ,child cannot modify the content of the parent class,it can  only read 
@@ -75,3 +75,108 @@ libraries, and dependencies in Node.js projects.
 8.Security: Provides tools to audit and fix security vulnerabilities in dependencies.
 9.Easy Project Setup: Simplifies project setup with package.json for defining dependencies and project details.
 10.Community Support: Access to a vast ecosystem of open-source libraries and tools
+     Array 
+we use map function to get the object from array
+we can get the big array of data we can export and use the data 
+<h3 style={{fontsize:"10px",color:"green"}}> name is :{user.name}</h3> internal styling in react
+Template Literals::(template strings )
+used for 
+we can use this for the display the statement along  variable 
+by using the {`welcome`${variable}} 
+ 
+
+             Getting the data from api (external data)
+Fetech method :: 
+get the data from api
+ crud operation form the api
+ creat - send data to api 
+ read - get the date from api using get method  
+ update - update the api 
+ delet - delet the api
+
+ async ,await-how the code should be ,if the waiting how much time for waiting 
+ await-- stop the process for fetching
+
+ take the function
+ use state ,useEffect and a function to handle the date 
+ const [user,setUser]=useState([])
+    // used to handle the fetch api 
+    const Handler =async()=>{     
+        const response= await fetch(Userdata);
+        const newData=  await response.json();
+        setUser(newData);
+
+    };
+    useEffect(()=>{
+        console.log(Handler());
+    },[]);
+    console.log(user);
+                             Async and Await 
+In React, async and await are used to handle asynchronous operations, such as fetching data from an API or performing some background task without blocking the main thread. 
+They allow you to write asynchronous code in a way that looks synchronous, making it easier to understand and maintain.
+
+async Function:
+
+The async keyword is used to define a function that returns a Promise("statement or the data). Inside this function, you can use the await keyword.
+
+await Keyword:
+
+The await keyword can only be used inside an async function. It pauses the execution of the function until the Promise(before statement or data is completed) 
+it is waiting for is resolved or rejected.
+                                code 
+async function fetchData() {
+  const response = await fetch('https://api.example.com/data');
+  const data = await response.json();
+  console.log(data);
+}
+
+fetchData();
+ we can use try catch to handle the errors wiling fetch method
+
+Dom vs Virtual dom
+
+Dom is also called as browser api model,
+  programing interface by browser which was seen in the broser
+
+react directly creat a component (DOM) ,and same time it will aslo creat a virtual dom 
+virtual if any update are ther 1st it will apply to the virtual dom then if it is correct then it will set the dom 
+by using virtual dom speed and performence will be increase 
+ 
+ short circuit Evulation 
+ showing the out put logically  
+
+                     use Reducer hook 
+    state management 
+    using reducer we can update multiple states at atime 
+    use state is used to update on state
+  Syntax const[state,dispatch]=useReducer(function,initialState)
+  we have to create the initial state before the function 
+   
+  reference to the images 
+      {/*  usereducerhook.png  */}
+ it is used to manage the multiple states  at a time 
+
+ by using dispatch we can use the data where we want 
+
+1.initial state 
+2.calling api
+
+                                   vite 
+Vite is a modern front-end build tool that has gained popularity due to its speed and efficiency,
+ especially in developing React applications.
+
+ syntax to install :: npm create vite@latest
+
+            react router dom
+            if we have multip pages in project 
+linking multiple pages to element
+
+   useContext hook  
+ if there is a component 
+ and it has a some components (ie a,b,c,d)
+ and this components (a,b,c,d ) have more child components 
+ (a-> e,f,g) and b ,c,d  like a 
+ if u want to pass the date to the grand child it will de defecult (ie pass the date to parent ,child , grand child ) 
+ for simplifing this we are using useContect hook
+ by using provider the can be send to the any component easily 
+

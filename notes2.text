@@ -1,0 +1,12 @@
+use of sap 
+   no traffice ,no traffice for server ,less use of innternet ,
+
+components: reuse, 
+props: sending the data from out side to a component.used for reuse
+state: creating,manipulate,component used for (sap) in side the component
+
+components are two types: 
+  1 class based component-- create class,state inbuilt
+  2. function based component-- create functions --no state use hook functions 
+
+  
