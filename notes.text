@@ -111,6 +111,7 @@ get the data from api
         console.log(Handler());
     },[]);
     console.log(user);
+
                              Async and Await 
 In React, async and await are used to handle asynchronous operations, such as fetching data from an API or performing some background task without blocking the main thread. 
 They allow you to write asynchronous code in a way that looks synchronous, making it easier to understand and maintain.
@@ -129,6 +130,7 @@ async function fetchData() {
   const data = await response.json();
   console.log(data);
 }
+
 
 fetchData();
  we can use try catch to handle the errors wiling fetch method
@@ -180,3 +182,4 @@ linking multiple pages to element
  for simplifing this we are using useContect hook
  by using provider the can be send to the any component easily 
 
+  DOM (Document Object Model) is a programming interface for web documents.DOM allows JavaScript to interact with and modify HTML elements dynamically.
